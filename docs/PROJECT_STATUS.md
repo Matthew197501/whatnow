@@ -1,4 +1,4 @@
-# What Now? — Project Status
+# Paano — Project Status
 
 ## Current state
 
@@ -21,4 +21,4 @@ The MVP now has a production-oriented visual workspace based on the approved des
 
 ## Design principle
 
-What Now? should feel like a problem-resolution workspace, not a generic chatbot. The user describes what happened; the system separates facts from uncertainty, recommends a useful next step, and reassesses as evidence changes.
+Paano should feel like a problem-resolution workspace, not a generic chatbot. The user describes what happened; the system separates facts from uncertainty, recommends a useful next step, and reassesses as evidence changes.

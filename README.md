@@ -1,6 +1,6 @@
-# What Now?
+# Paano
 
-What Now? is an AI-powered problem-resolution system.
+Paano is an AI-powered problem-resolution system.
 
 > Tell it what happened. It figures out what comes next.
 

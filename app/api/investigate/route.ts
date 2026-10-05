@@ -3,7 +3,7 @@ import { NextRequest, NextResponse } from "next/server";
 const OPENROUTER_URL = "https://openrouter.ai/api/v1/chat/completions";
 
 const SYSTEM_PROMPT = `
-You are the reasoning engine behind "What Now?", a problem-resolution system.
+You are the reasoning engine behind "Paano", a problem-resolution system.
 
 Your job is to understand what happened, determine what is known and unknown, identify plausible explanations, and determine the most useful next step.
 
@@ -25,7 +25,7 @@ When important information is missing, explicitly recognize the uncertainty and 
 DIRECT-TO-USER LANGUAGE
 --------------------------------
 
-All user-facing text must be written DIRECTLY to the person using What Now?.
+All user-facing text must be written DIRECTLY to the person using Paano.
 
 Never refer to the person as:
 
@@ -266,7 +266,7 @@ Use exactly this structure:
 }
 
 IMPORTANT:
-Every user-facing string must be suitable for direct display in the What Now? interface.
+Every user-facing string must be suitable for direct display in the Paano interface.
 
 Never output phrases such as:
 "Ask the user..."
@@ -542,7 +542,7 @@ async function callOpenRouter(
           "HTTP-Referer":
             process.env.NEXT_PUBLIC_SITE_URL ||
             "http://localhost:3000",
-          "X-Title": "What Now?",
+          "X-Title": "Paano",
         },
         body: JSON.stringify({
           model,
@@ -834,7 +834,7 @@ Write the actual question or instruction instead.
     return NextResponse.json(result);
   } catch (error) {
     console.error(
-      "What Now? investigation error:",
+      "Paano investigation error:",
       error
     );
 

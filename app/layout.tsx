@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "What Now?",
-  description: "Problem resolution engine",
+  title: "Paano — AI-powered problem resolution",
+  description: "Paano helps you understand problems, investigate possibilities, and figure out what to do next.",
   icons: {
     icon: "/what-now-favicon.png",
     shortcut: "/what-now-favicon.png",

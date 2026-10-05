@@ -673,13 +673,13 @@ export default function Home() {
           <div className="brand-mark">
             <img
               src="/what-now-favicon.png"
-              alt="What Now?"
+              alt="Paano"
             />
           </div>
 
           <div>
-            <strong>What Now?</strong>
-            <span>Problem resolution engine</span>
+            <strong>Paano</strong>
+            <span>AI-powered problem resolution</span>
           </div>
         </div>
 
@@ -772,8 +772,8 @@ export default function Home() {
         </div>
 
         <div className="sidebar-footer">
-          <strong>What Now?</strong>
-          <span>Problem resolution engine</span>
+          <strong>Paano</strong>
+          <span>AI-powered problem resolution</span>
           <small>
             Created by Samuel Mallo
           </small>
@@ -844,7 +844,7 @@ export default function Home() {
               </h1>
 
               <p>
-                What Now? turns confusing situations
+                Paano turns confusing situations
                 into structured investigations, useful
                 next actions, and continuous
                 reassessment.
@@ -943,7 +943,7 @@ export default function Home() {
               <p>
                 Traditional AI interfaces often
                 expect people to already understand
-                their problem. What Now? starts from
+                their problem. Paano starts from
                 the opposite assumption: the person
                 may only know that something is wrong.
                 <br />
@@ -972,7 +972,7 @@ export default function Home() {
 
               <div className="creator-copy">
                 <p>
-                  What Now? is an independent project
+                  Paano is an independent project
                   exploring how AI can move beyond
                   simply generating answers and instead
                   participate in structured problem
@@ -995,7 +995,7 @@ export default function Home() {
 
             <footer className="home-footer">
               <span>
-                What Now? — Problem resolution engine
+                Paano — AI-powered problem resolution
               </span>
 
               <span>
@@ -1173,7 +1173,7 @@ export default function Home() {
               </h1>
 
               <p>
-                What Now? is turning your description
+                Paano is turning your description
                 into a structured case and determining
                 what information matters next.
               </p>
@@ -1444,7 +1444,7 @@ export default function Home() {
               <div className="decision-hero">
                 <div className="decision-copy">
                   <div className="eyebrow">
-                    WHAT NOW?
+                    Paano
                   </div>
 
                   <div className="decision-title-row">
@@ -1826,7 +1826,7 @@ export default function Home() {
 
               <footer className="case-footer">
                 <span>
-                  What Now? — Problem resolution
+                  Paano — Problem resolution
                   engine
                 </span>
 
